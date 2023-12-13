@@ -44,9 +44,10 @@ ul {
 }
 
 li {
-    color:crimson;
+    color:gray;
     font-weight:bold;
     text-transform: capitalize;
+    text-shadow: crimson 1px 1px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
