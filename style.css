@@ -1,1 +1,63 @@
+html {
+    background-color: black;
+}
 
+h1 {
+    color:gray;
+    text-shadow: crimson 1px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color:gray;
+    text-shadow: crimson 1px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    margin-top: 2%;
+    color: crimson;
+    text-shadow: black 1px 1px;
+}
+
+input::placeholder {
+    color:crimson;
+    text-shadow: black 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    color:crimson;
+    outline-style:solid;
+    outline-color: crimson;
+    margin-left: 2%;
+    text-shadow:black 1px 1px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    color:crimson;
+    font-weight:bold;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li:hover::after {
+    content: "Delete?";
+    color:crimson;
+    text-shadow: black 1px 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background-color: gray;
+    outline-style: dotted;
+    outline-color: crimson;
+    margin-left: 3%;
+}
